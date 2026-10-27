@@ -1,0 +1,732 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Sayuri Edirisinghe's personal portfolio exploring UI/UX design, technology, writing and research.">
+
+  <meta name="theme-color" content="#f6e9dc">
+
+  <title>Sayuri Edirisinghe — Design, Technology & Words</title>
+
+  <link rel="icon" type="image/png" href="assets/images/sme-logo-favicon.png">
+<link rel="apple-touch-icon" href="assets/images/sme-logo-favicon.png">
+
+  <!-- Editorial typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+  <!-- ================= HEADER ================= -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+
+      
+<a href="#home" class="logo" aria-label="Sayuri Edirisinghe — Home">
+    <img src="assets/images/SME_Logo.png"
+         alt="SME — Sayuri Methsanie Edirisinghe">
+</a>
+
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="nav-links"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#work">Selected Work</a>
+        <a href="#writing">Writing</a>
+        <a href="#about">About</a>
+        <a class="nav-contact" href="#contact">Let's Connect ↗</a>
+      </div>
+
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero section-padding" id="home">
+      <div class="container">
+
+        <p class="eyebrow">
+          COMPUTER SCIENCE UNDERGRADUATE
+          <span class="eyebrow-dot"></span>
+          DESIGN · CODE · WORDS
+        </p>
+
+        <h1>
+          Curious by nature.<br>
+          <span class="accent-text">Creative by design.</span>
+        </h1>
+
+        <div class="hero-bottom">
+
+          <p class="hero-description">
+            I'm Sayuri, a Computer Science undergraduate interested
+            in the intersection of thoughtful design, technology,
+            and meaningful storytelling.
+          </p>
+
+          <a class="text-link" href="#work">
+            Explore my work <span aria-hidden="true">↘</span>
+          </a>
+
+        </div>
+
+        <!-- Hero portrait -->
+<div class="hero-art">
+  <img src="assets/images/sayuri-portrait.jpg"
+       alt="Portrait of Sayuri Edirisinghe"
+       class="hero-photo">
+  <div class="art-caption">
+  <span class="art-name">Sayuri Methsanie Edirisinghe</span>
+  A LITTLE BIT OF LOGIC.<br>A LITTLE BIT OF IMAGINATION.
+</div>
+  <span class="art-number">01 / 04</span>
+</div>
+
+        <div class="hero-meta">
+          <span>BASED IN SRI LANKA</span>
+          <a href="#about">A little more about me ↓</a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================= SELECTED WORK ================= -->
+<section class="work-section section-padding" id="work">
+  <div class="container">
+
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">A SELECTION OF MY WORK</p>
+        <h2>Ideas into <span class="serif-italic">experiences.</span></h2>
+      </div>
+
+      <p class="section-intro">
+        From digital interfaces to technical experiments,
+        here's what I've been learning, making, and exploring.
+      </p>
+    </div>
+
+    <div class="project-grid">
+
+      <!-- PROJECT 01: MEDILINK -->
+      <article class="project-card">
+        <a class="project-visual" href="#work" data-case="case-medilink" aria-label="Read the MediLink case study">
+          <span class="visual-label">UI/UX DESIGN / 01</span>
+          <img src="assets/images/medilink-cover.png"
+               alt="MediLink dispatcher dashboard showing incidents, a map, patient vitals and available units">
+          <span class="visual-index">01</span>
+        </a>
+
+        <div class="project-info">
+          <div class="project-meta">
+            <span>UI/UX DESIGN</span>
+            <span>CASE STUDY</span>
+          </div>
+
+          <h3>MediLink</h3>
+
+          <p>
+            An emergency dispatch dashboard for coordinators and a smartwatch
+            app for paramedics, built as a Figma design system and a clickable
+            prototype, then refined through a heuristic evaluation.
+          </p>
+
+          <a class="text-link" href="#work" data-case="case-medilink">
+            Read case study <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- PROJECT 02: GREENBITE -->
+      <article class="project-card">
+        <a class="project-visual"
+           href="https://sayuri-e.github.io/greenbite-sd-cb015094/"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="Visit the GreenBite website">
+          <span class="visual-label">WEB DEVELOPMENT / 02</span>
+          <img src="assets/images/greenbite-cover.png"
+               alt="GreenBite wellness website homepage with a lotus logo over rippling water">
+          <span class="visual-index">02</span>
+        </a>
+
+        <div class="project-info">
+          <div class="project-meta">
+            <span>WEB DEVELOPMENT</span>
+            <span>LIVE SITE</span>
+          </div>
+
+          <h3>GreenBite</h3>
+
+          <p>
+            A six-page wellness website with recipes, a calorie calculator,
+            a workout generator and a mindfulness page, built with HTML, CSS
+            and JavaScript and tested for accessibility and performance.
+          </p>
+
+          <a class="text-link"
+             href="https://sayuri-e.github.io/greenbite-sd-cb015094/"
+             target="_blank" rel="noopener noreferrer">
+            Visit live site <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- PROJECT 03: ALTRIUM -->
+      <article class="project-card">
+        <a class="project-visual" href="#work" data-case="case-altrium" aria-label="Read the Altrium case study">
+          <span class="visual-label">FULL-STACK / 03</span>
+          <img src="assets/images/altrium-cover.png"
+               alt="Altrium recruitment portal homepage with a job search bar">
+          <span class="visual-index">03</span>
+        </a>
+
+        <div class="project-info">
+          <div class="project-meta">
+            <span>FULL-STACK</span>
+            <span>TEAM PROJECT</span>
+          </div>
+
+          <h3>Altrium Recruitment Portal</h3>
+
+          <p>
+            A job portal built with ASP.NET Core MVC and SQL Server, with
+            role-based access for applicants, recruiters, admins and
+            management. Built by a team; I handled the development and QA.
+          </p>
+
+          <a class="text-link" href="#work" data-case="case-altrium">
+            Read case study <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- PROJECT 04: EMPLOYEE ANALYTICS DASHBOARD -->
+      <article class="project-card">
+        <a class="project-visual" href="#work" data-case="case-analytics" aria-label="Read about the Employee Analytics Dashboard">
+          <span class="visual-label">DATA ANALYTICS / 04</span>
+          <img src="assets/images/analytics-cover.png"
+               alt="Power BI employee analytics dashboard with KPI cards, bar, donut and line charts">
+          <span class="visual-index">04</span>
+        </a>
+
+        <div class="project-info">
+          <div class="project-meta">
+            <span>DATA ANALYTICS</span>
+            <span>POWER BI</span>
+          </div>
+
+          <h3>Employee Analytics Dashboard</h3>
+
+          <p>
+            Cleaned a messy employee dataset with Power Query, modelled it as
+            a star schema, and built an interactive dashboard with KPIs,
+            charts and slicers.
+          </p>
+
+          <a class="text-link" href="#work" data-case="case-analytics">
+            Read project breakdown <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- ===== Case study text (hidden; shown in the reader panel) ===== -->
+    <div hidden>
+
+      <div id="case-medilink">
+        <p class="reader-category">UI/UX DESIGN · CASE STUDY</p>
+        <h2>MediLink</h2>
+        <p class="reader-byline">Coursework project · Figma</p>
+
+        <img src="assets/images/medilink-cover.png" alt="MediLink dispatcher dashboard">
+
+        <h3>The brief</h3>
+        <p>MediLink is an emergency response platform designed for two very different devices: a desktop dashboard for dispatch coordinators, and a smartwatch app for paramedics on the ground. Building on earlier wireframes and personas, this stage had four goals: a reusable design system, a high-fidelity clickable prototype with conditional logic, a usability evaluation, and a developer handoff specification.</p>
+
+        <h3>Who it's for</h3>
+        <p>The design centred on two users: Shahidah, an experienced dispatcher handling several incidents at once, and Kesitha, a trainee who is still building familiarity with the system. Designing for both meant a full-density dashboard for experts and a simplified variant for the trainee.</p>
+
+        <h3>Building a design system</h3>
+        <p>Before designing any screen, I built a component library in Figma following Brad Frost's Atomic Design approach. Colours and text styles were saved as global styles, so one change updates the whole prototype.</p>
+        <ul>
+          <li><strong>Atoms:</strong> primary, secondary and danger buttons, each with default, hover and disabled states; input fields with default, focus and error states; and a set of icons.</li>
+          <li><strong>Molecules:</strong> an alert card with P1, P2 and P3 priority variants, and the top navigation bar.</li>
+          <li><strong>Status colours</strong> made priority and unit availability readable at a glance, which matters in a high-pressure setting.</li>
+        </ul>
+
+        <h3>The prototype</h3>
+        <p>The clickable prototype covers a complete path, from logging in to dispatching a unit, on both the desktop dashboard and the watch. A Figma variable drives a live counter of pending alerts that drops from 4 to 3 when a dispatcher acknowledges an incident, so the interface responds to what the user does.</p>
+
+        <figure>
+          <img src="assets/images/medilink-login.png" alt="MediLink login screen">
+          <figcaption>Login screen</figcaption>
+        </figure>
+
+        <figure>
+          <img src="assets/images/medilink-log.png" alt="MediLink incident log with accepted and declined incidents">
+          <figcaption>Incident log, with filters and accepted and declined incidents</figcaption>
+        </figure>
+
+        <h3>Testing it: three heuristic fixes</h3>
+        <p>I evaluated the prototype against Nielsen's ten usability heuristics and fixed three problems:</p>
+        <ul>
+          <li><strong>Visibility of system status.</strong> Incident cards all looked the same, so a dispatcher couldn't tell which one the vitals panel referred to. A blue border and light tint now mark the selected card.</li>
+          <li><strong>Error prevention.</strong> Dispatching took a single click, which is risky when the action is irreversible. The trainee variant now opens a confirmation step that shows the full dispatch details first.</li>
+          <li><strong>Recognition rather than recall.</strong> The sidebar used icon-only navigation. Text labels now sit beside every icon in the trainee variant.</li>
+        </ul>
+
+        <h3>Handing it over</h3>
+        <p>I prepared a redlined specification on its own Figma page, marking up spacing, typography and interaction rules on the most complex screen, so a developer wouldn't need to guess any values.</p>
+      </div>
+
+      <div id="case-altrium">
+        <p class="reader-category">FULL-STACK · TEAM PROJECT</p>
+        <h2>Altrium Recruitment Portal</h2>
+        <p class="reader-byline">Team project · ASP.NET Core MVC, SQL Server · My role: development and QA</p>
+
+        <img src="assets/images/altrium-cover.png" alt="Altrium homepage with job search">
+
+        <h3>The project</h3>
+        <p>Altrium is a full-stack recruitment portal where applicants browse and apply for vacancies, and recruiters, admins and management each get their own tools. It was built by a team following an agile, sprint-based process, and I handled the development and quality assurance.</p>
+
+        <figure>
+          <img src="assets/images/altrium-dashboard.png" alt="Altrium applicant dashboard with application statuses and quick actions">
+          <figcaption>Applicant dashboard showing application statuses, notifications and quick actions</figcaption>
+        </figure>
+
+        <h3>What it does</h3>
+        <ul>
+          <li><strong>Applicants</strong> can register, build a profile, upload a CV, search vacancies and track the status of each application.</li>
+          <li><strong>Recruiters, admins and management</strong> each have their own access, enforced with role-based authorisation.</li>
+          <li><strong>Security:</strong> passwords are hashed with BCrypt, never stored as plain text.</li>
+        </ul>
+
+        <h3>How it's built</h3>
+        <p>The portal uses ASP.NET Core MVC with Entity Framework Core and a SQL Server database, with Razor views for each page and one stylesheet for the look and feel. The database is created from migrations, so the project can be set up locally by following the README.</p>
+
+        <h3>Where it stands</h3>
+        <p>The submission covers the first sprint's scope. Some groundwork for the second sprint, including notifications, reports, admin and management dashboards and interview scheduling, is already in the schema and partly implemented.</p>
+
+        <p><a class="reader-link" href="https://github.com/Senidi444/Altrium" target="_blank" rel="noopener noreferrer">View the code on GitHub ↗</a></p>
+      </div>
+
+      <div id="case-analytics">
+        <p class="reader-category">DATA ANALYTICS · POWER BI</p>
+        <h2>Employee Analytics Dashboard</h2>
+        <p class="reader-byline">Coursework project · Power BI, Power Query</p>
+
+        <img src="assets/images/analytics-cover.png" alt="Power BI employee analytics dashboard">
+
+        <h3>The problem</h3>
+        <p>The starting point was a deliberately messy employee dataset of about 1,025 records. It had missing ages and salaries, "N/A" typed into a numeric column, negative phone numbers, heavily duplicated emails, salaries with floating-point errors, and department and region squashed into one column. Analysing it as it was would have produced faulty results.</p>
+
+        <h3>Cleaning it (ETL in Power Query)</h3>
+        <ul>
+          <li><strong>Missing ages</strong> were filled with the column average, about 33.</li>
+          <li><strong>Salaries</strong> stored as "N/A" were replaced with the real column mean, about 85,093, using a temporary value first so the average could be calculated. All values were then rounded to two decimals.</li>
+          <li><strong>Blank rows</strong> at the end of the file were filtered out.</li>
+          <li><strong>Department and region</strong> were split into two columns.</li>
+          <li><strong>Phone and email columns</strong> were removed. The phone numbers were unrecoverable, and de-duplicating by email would have left only 64 rows.</li>
+        </ul>
+        <p>The result was a clean set of 899 records.</p>
+
+        <h3>Modelling it</h3>
+        <p>I organised the cleaned data as a star schema: one fact table holding age, salary and join date, linked to six dimension tables for employee, department, region, status, remote work and performance score. This keeps the slicers and cross-filtering working across every visual.</p>
+
+        <h3>The dashboard</h3>
+        <p>The dashboard has four KPI cards (total employees, average salary, active employees and remote percentage), charts for department, status, remote versus on-site work, salary by region, performance and hiring over time, and slicers for department, status and region.</p>
+        <p>A few things stood out: DevOps and Sales are the largest departments, average salary is almost uniform across regions, the workforce splits close to evenly between remote and on-site, and hiring peaks around 2023.</p>
+
+        <h3>What I'd do differently</h3>
+        <p>Mean imputation keeps the overall distribution but reduces variability, and dropping the phone and email columns meant losing data. With a real source to check against, I'd recover those fields rather than remove them.</p>
+      </div>
+
+    </div>
+
+    <p class="section-footnote">
+      A growing collection. More projects and detailed case studies
+      will be added as they develop.
+    </p>
+
+  </div>
+</section>
+
+
+    <!-- ================= WRITING ================= -->
+<section class="writing-section section-padding" id="writing">
+  <div class="container">
+
+    <div class="section-heading writing-heading">
+      <div>
+        <p class="eyebrow">NOTES, STORIES & IDEAS</p>
+        <h2>Thoughts in <span class="serif-italic">words.</span></h2>
+      </div>
+
+      <p class="section-intro">
+        A place for my articles, research, observations,
+        and stories that deserve more than a passing thought.
+      </p>
+    </div>
+
+    <div class="writing-list">
+
+      <article class="writing-item">
+        <div class="writing-number">01</div>
+        <div class="writing-content">
+          <p class="article-category">NATURE · CULTURE · RESEARCH</p>
+          <h3><button type="button" data-article="art-shimai">Shimai no Mori — Sister Forests</button></h3>
+          <p>Exploring the ecological and cultural connections between Sri Lanka's Sinharaja Forest Reserve and Japan's ancient forest landscapes.</p>
+        </div>
+        <div class="writing-arrow" aria-hidden="true">↗</div>
+      </article>
+
+      <article class="writing-item">
+        <div class="writing-number">02</div>
+        <div class="writing-content">
+          <p class="article-category">FICTION · MYTH · NATURE</p>
+          <h3><button type="button" data-article="art-pantheon">A Pantheon of Kamigami and Deviyan</button></h3>
+          <p>A short story imagining the guardian spirits of Sinharaja, Yakushima and Shirakami-Sanchi meeting once a century.</p>
+        </div>
+        <div class="writing-arrow" aria-hidden="true">↗</div>
+      </article>
+
+      <article class="writing-item">
+        <div class="writing-number">03</div>
+        <div class="writing-content">
+          <p class="article-category">EVENTS · DESIGN · COMMUNITY</p>
+          <h3><button type="button" data-article="art-workshop">Creative Design Workshop</button></h3>
+          <p>A reflection on the Catalyst Club workshop and its lessons on design fundamentals and learning through iteration.</p>
+        </div>
+        <div class="writing-arrow" aria-hidden="true">↗</div>
+      </article>
+
+      <article class="writing-item">
+        <div class="writing-number">04</div>
+        <div class="writing-content">
+          <p class="article-category">OPINION · SOCIETY · POWER</p>
+          <h3><button type="button" data-article="art-jesters">Power in the Hands of Jesters</button></h3>
+          <p>A personal essay on what power is for, and why it belongs to a sage and an empath.</p>
+        </div>
+        <div class="writing-arrow" aria-hidden="true">↗</div>
+      </article>
+
+      <article class="writing-item">
+        <div class="writing-number">05</div>
+        <div class="writing-content">
+          <p class="article-category">TRAVEL · KOREA · EXPERIENCE</p>
+          <h3><button type="button" data-article="art-seogwipo">Dive Into Seogwipo</button></h3>
+          <p>A first-hand guide to Jeju's submarine dive, from the ride to the coral to what it costs.</p>
+        </div>
+        <div class="writing-arrow" aria-hidden="true">↗</div>
+      </article>
+
+    </div>
+
+    <!-- ===== Reading panel (opens when a piece is clicked) ===== -->
+    <dialog class="reader" id="reader" aria-label="Article reader">
+      <div class="reader-panel">
+        <button type="button" class="reader-close" id="reader-close">Close ✕</button>
+        <div id="reader-body"></div>
+      </div>
+    </dialog>
+
+    <!-- ===== Article text (hidden; shown inside the reader) ===== -->
+    <div hidden>
+
+      <div id="art-shimai">
+        <p class="reader-category">NATURE · CULTURE · RESEARCH</p>
+        <h2>Shimai no Mori — Why Sri Lanka's Sinharaja Echoes the Ancient Wilds of Japan</h2>
+        <p class="reader-byline">By Sayuri Edirisinghe</p>
+
+        <p>As monsoon season rises, tiny raindrops fall from leaf to leaf in the forest of Sinharaja and miles away through the rising mists around the cedars and the moss covered trunks sits Yakushima and Shirakami-sanchi. While the landscapes could hardly look more different, from a tropical rainforest to cool mountainous forests, these woodlands share something deeper. The living records of Mother Earth's ancient natural world.</p>
+        <p>Perhaps that is why Shimai no Mori or "Sister Forests" feels like an appropriate name for them.</p>
+        <p>Sinharaja lies in the wet zone of south-western Sri Lanka and is the country's last extensive area of primary lowland rainforest. Its isolation has helped create extraordinary levels of endemism. More than 60 percent of its trees are endemic, while more than half of Sri Lanka's endemic mammal and butterfly species occur within the reserve. Almost all of the country's endemic bird species recorded there are found in Sinharaja as well.</p>
+        <p>Across the Asian continent, a similar story unfolded in Japan.</p>
+        <p>Yakushima, an island south of Kyushu, rises dramatically into mountains nearly 2,000 metres high. Its isolation and range of climates allow vegetation to change dramatically with altitude, from subtropical coastal plants to temperate rainforest and cold, highland vegetation. UNESCO describes the island as containing a remnant of ancient warm-temperate forest and some 1,900 species and subspecies of plants.</p>
+        <p>Further north lies Shirakami-Sanchi, a vast wilderness on Honshu famous for its remaining virgin Siebold's beech forests. These forests are remnants of a woodland ecosystem that has existed in northern Japan for thousands of years. Black bears, Japanese serow and dozens of bird species inhabit the area.</p>
+        <p>While these ecosystems have continuously changed and adapted, their isolation has allowed evolutionary histories to survive making them living pieces of prehistory. In that sense, they are biological islands: places where species have evolved, persisted and diversified within relatively protected environments.</p>
+
+        <h3>Ancient giants and elusive predators</h3>
+        <p>The similarities become even more fascinating when we look at the creatures that inhabit these forests.</p>
+        <p>Sinharaja is home to the Sri Lankan leopard, alongside remarkable endemic species such as the purple-faced langur, Sri Lanka blue magpie and several endemic birds.</p>
+        <p>Japan has its own symbols of wild isolation. Yakushima is famous for its ancient sugi, or Japanese cedar, some of which have survived for extraordinary lengths of time. Its forests are so distinctive that they became one of Japan's first natural World Heritage sites.</p>
+        <p>Japan's rarest wild feline, however, belongs to a different island ecosystem. The Iriomote leopard cat survives only on Iriomote Island, part of the UNESCO-listed property that also includes Amami-Oshima, Tokunoshima and northern Okinawa. Its existence is another reminder of what geographical isolation can produce: a species found nowhere else on Earth.</p>
+        <p>Sri Lanka's leopard and Japan's island cats are not evolutionary equivalents. Their significance lies elsewhere. Each represents a larger truth: when a landscape remains sufficiently intact, extraordinary species can continue to occupy ecological niches that have disappeared elsewhere.</p>
+
+        <h3>From sacred landscapes to protected forests</h3>
+        <p>But ancient forests do not survive through isolation alone.</p>
+        <p>People have shaped their relationship with these landscapes for generations. Across Japan, forests have long carried cultural and spiritual significance, while communities surrounding forests such as Yakushima have developed deep relationships with their natural environment. In Sri Lanka, Sinharaja has likewise existed alongside local communities whose traditional use of forest resources has formed part of the landscape's history.</p>
+        <p>Protection, however, became increasingly important as commercial pressures and development threatened natural forests.</p>
+        <p>Sinharaja's history illustrates this transformation. The forest had already been declared a forest reserve in 1875. In 1978 it became a Biosphere Reserve, and in 1988 it was declared a National Heritage Wilderness Area before being inscribed as a UNESCO World Heritage site.</p>
+        <p>UNESCO recognition does not mean these forests are untouchable or completely free from danger. Sinharaja continues to face pressures including illegal timber felling, gem mining, poaching, cultivation and development around its boundaries. The same is true of the Japanese World Heritage forests. UNESCO status is not a magical shield; it is a commitment to protect ecosystems whose value extends far beyond national borders.</p>
+        <p>Sisterhood has never been about being the exact same thing, it has been about diversity but with a bond. These three forests share the bond of preserving time with their diverse climates, species and evolutionary histories. They remind us that forests are more than collections of trees and animals. They are records of evolution, climate and survival written into living organisms. Every ancient cedar, endemic bird, rare mammal and seemingly ordinary tree is part of a story that began long before modern borders, cities and roads existed.</p>
+        <p>Perhaps that is what makes the idea of Shimai no Mori so powerful. The forests of Sri Lanka and Japan do not need to be identical to belong to the same story.</p>
+        <p>They are sisters because they teach us the same lesson: protecting an ancient ecosystem is not simply about saving what exists today. It is about preserving the possibility that its evolutionary story can continue tomorrow.</p>
+        <p>In a rapidly changing world, these forests allow us to hear an echo of the wild that came before us and, if we protect them carefully enough, perhaps an echo of the wild that will outlive us.</p>
+      </div>
+
+      <div id="art-pantheon">
+        <p class="reader-category">FICTION · MYTH · NATURE</p>
+        <h2>A Pantheon of Kamigami and Deviyan</h2>
+        <p class="reader-byline">By Sayuri Edirisinghe</p>
+
+        <p>Midnight. It was time.</p>
+        <p>She rose from her slumber, the mighty mountain goddess of Shirakami-Sanchi. She had always watched over these mountains; this forest and her people. They knew her as Yamanokami and right now, it was time.</p>
+        <p>A small grunt, his gnarly roots that seemed to engulf him released, allowing him to rise. Yakusugi, the great cedar god was thousands of years old, yet his forest Yakushima was as fresh to him as the beginning of dawn. He grabbed his stick of cedar, a gift from his beloved trees and was ready to depart, it was time.</p>
+        <p>A great roar echoed through the forest of Sinharaja, yet no creature panicked. They were familiar with the call of their Lion King. He brushed his great mane and looked to the horizon as it was time.</p>
+        <p>Time for them to meet. To share the love of their forests and how they are so similar and yet so different to each other. This meeting only happened once a century; so it was always a treat when it finally rolled around. Indeed, it was time.</p>
+        <p>Where do they meet? It is neither here nor there. Not earth or sky. A space only great gods could gather. And here they were. They bowed to each other and gave each other greetings, in a language transcending the human tongue.</p>
+        <p>The great lion mentioned how the rain was cooling these days while the goddess and elder mentioned the snow that was covering their forests. They spoke of their beloved animals, the melodies of the birds and their beautiful forests. These conversations enriched them and time always passed way too fast when they met.</p>
+        <p>A sudden honk disturbed their conversation. It was one of those fancy human metal things on wheels. The year was 2026, they were not alien to these anymore so they remembered that the term for these was cars. The world had changed ever so vastly, humans have come far; both for better and worse. They wished they cared more for their beloved nature instead of being trapped inside their glass houses and moving screens. They too belonged to Earth and it never failed to baffle them how careless they are when it comes to their Great Mother. Humans will forever be, the most complex creature in nature and even great gods such as themselves cease to understand them.</p>
+        <p>Dawn broke over the Pacific and Indian Oceans, and again it was time; but it was to depart. They bowed and with the promise of another meeting in centuries time, the Elder returned to his strong roots, She back to her mountains and He back to his tropical paradise.</p>
+      </div>
+
+      <div id="art-workshop">
+        <p class="reader-category">EVENTS · DESIGN · COMMUNITY</p>
+        <h2>All about Design: Inside the Creative Design Workshop</h2>
+        <p class="reader-byline">By Sayuri Edirisinghe</p>
+
+        <p>What makes a design stand out? Is it the colours, the typography, or the way every element comes together? These questions were explored at the Creative Design Workshop, an initiative by the Catalyst Club, led by its members Jahani Rathugamage and Mark Karunaratne. The workshop provided participants with an opportunity to discover how thoughtful design choices can transform a simple idea into an engaging visual creation.</p>
+        <p>The workshop provided participants with an introduction to the creative design process, combining essential graphic design principles with interactive and engaging activities to encourage them to experiment with new ideas and grow more confident in their creativity. The session started with the basics of creating an effective design, highlighting the importance of understanding the brief, identifying the target audience, and gathering references before embarking on any design project.</p>
+        <p>Another key point emphasized by Jahani and Mark was that design is generally not achieved on the first try, but is instead a process of constant experimentation, feedback, and improvement. By demonstrating how mistakes and modifications could be turned into learning experiences, they highlighted the importance of remaining flexible and open to different ideas and approaches.</p>
+        <p>The focus of the workshop then shifted towards the visual components that influence a design's appearance and communication. Typography, layout, colour and contrast, as well as spacing, were among the aspects discussed, helping participants understand how these elements complement one another to create well-balanced graphics.</p>
+        <p>Participants were also introduced to practical techniques they could incorporate into their everyday creative work, whether designing posters, promotional graphics, or other visual content. The emphasis was on understanding not only what makes a design attractive, but also what makes it effective.</p>
+        <p>In addition to design principles, the workshop introduced various software tools that could support the creative process. Canva was presented as an accessible starting point for those new to design, whereas Affinity and Adobe Photoshop were introduced as alternatives offering more opportunities to experiment with advanced techniques. However, the focus of the session remained on developing a sound understanding of design rather than becoming accustomed to a single software platform.</p>
+        <p>One of the highlights of the workshop was the hands-on poster-design activity, which allowed participants to put their newly acquired knowledge into practice. By experimenting with typography, colours, layouts, and spacing, they translated the concepts discussed during the session into their own creative work.</p>
+        <p>Participants then presented their completed posters, showcasing their creativity and individual approaches. This demonstrated the value of combining practical guidance with personal experimentation. Another important lesson from the activity was that, despite being guided by the same principles and concepts, each designer brings a unique perspective to their work.</p>
+        <p>The experience also offered valuable lessons for Jahani and Mark. They recognized the importance of striking a balance between theory and practical activities, ensuring that participants had enough time to understand and apply new ideas independently. The questions and discussions throughout the workshop also proved to be valuable learning opportunities, encouraging interaction and allowing participants to gain a deeper understanding of the concepts being taught.</p>
+        <p>The feedback received from participants was encouraging, with many expressing increased confidence in their design skills and an interest in continuing to practice and improve.</p>
+        <p>Ultimately, the Creative Design Workshop demonstrated that graphic design is not merely about making something beautiful. It involves having a purpose, communicating ideas effectively, and remaining open to improving and refining those ideas. By combining essential design principles with hands-on experimentation, Jahani Rathugamage and Mark Karunaratne created a meaningful and engaging learning experience for the participants.</p>
+        <p>One important lesson the workshop left its participants with was that there is no such thing as a perfect first attempt at design; there should always be room for creativity, growth, and improvement.</p>
+      </div>
+
+      <div id="art-jesters">
+        <p class="reader-category">OPINION · SOCIETY · POWER</p>
+        <h2>Power in the Hands of Jesters</h2>
+        <p class="reader-byline">By Sayuri Edirisinghe</p>
+
+        <p>When you look at the world we live in right now, what do you see? A Utopia? A hell upon Earth? Or maybe, a mix of both? The world is run by people. However, people in power have an ability to tip the scales of this process.</p>
+        <p>To these people, what is power?</p>
+        <p>Money.</p>
+        <p>Mansions, cars, jets, luxury items.....I get it. In the words of Madonna, we are living in a material world.</p>
+        <p>Is it wrong to want to possess these? In my eyes, no. But should it be the main purpose of power? Absolutely not.</p>
+        <p>Or maybe it is Power itself. Being the boss, the one in charge, the one who makes the calls. Ah! I believe there is a word for that as well. Pride.</p>
+        <p>But tell me, what good is it being in charge and possessing power if one chooses to wield it like a fool?</p>
+        <p>Then what you may ask should be the core purpose of power? The power to change.</p>
+        <p>Change what? The history books from repeating themselves.</p>
+        <p>We know war, we have read of it and some of us have lived through it. A world once filled with smoke, ruin and the pain and suffering of the people.</p>
+        <p>The world not divided by skin and race. People of color who were once colonized, humiliated and enslaved. Forced to stay in separate lines to get the day's bread. Do we all not have the same hunger?</p>
+        <p>To save and protect Mother Gaia and her oceans. We live through her, we live in her; will it not be wise, if so to protect her?</p>
+        <p>A world that is not divided by race, religion, sexuality and gender. Because last I checked, we are all so iridescently human.</p>
+        <p>Why, being aware of these things do certain world leaders try to take pages out of that history? Why? Because more often than not, power goes to the hands of jesters.</p>
+        <p>Then who should power go to?</p>
+        <p>Power should belong to a Sage and an Empath.</p>
+        <p>Oh so a Sage or an Empath? Got it.</p>
+        <p>No. A Sage AND an Empath.</p>
+        <p>For there is no point in wisdom without empathy, and there is no point in empathy without wisdom.</p>
+        <p>A ruler who knows the history of their people and the hearts of their people.</p>
+        <p>Someone who will not let the Sun, a witness to the pain and crimes of the past, see that in a new day.</p>
+        <p>Someone who doesn't declare war because their ego took a hit or to show that they have got the bigger guns.</p>
+        <p>Someone who is human, speaks human and understands human.</p>
+        <p>Power, should be in the hands of a Sage and an Empath.</p>
+      </div>
+
+      <div id="art-seogwipo">
+        <p class="reader-category">TRAVEL · KOREA · EXPERIENCE</p>
+        <h2>Dive Into Seogwipo</h2>
+        <p class="reader-byline">By Sayuri Edirisinghe</p>
+
+        <p>The island of Jeju, once considered a place of banishment and exile during the Goryeo and Joseon dynasties, is now well known as a tropical ocean paradise in South Korea.</p>
+        <p>It is home to many tourist attractions such as Seongsan Ilchulbong, Mount Hallasan, Hamdeok Beach and much more.</p>
+        <p>One of the most beloved activities that take place here is the submarine dive, where tourists can submerge into the crystal-blue waters of Jeju near Munseom Island to explore the local marine life.</p>
+        <p>The Seogwipo submarine in Jeju has been operating since 1988, making it the first of its kind in Asia and the third in the world.</p>
+        <p>A short ferry ride takes its passengers to the submarine pontoon, where it then descends to the depths of up to 40m for Jeju's coral to showcase their vibrant shades, an artificial shipwreck to bring out your inner pirate and to see the bustling metropolitan of the underwater world.</p>
+        <p>Passengers will be viewing these wonders through the submarine's large portholes, accompanied by a friendly professional diver swimming outside scattering food; a small nudge for the fish to come and say hi.</p>
+        <p>This underwater experience lasts 40 minutes with audio guidance. After the tour, passengers are rewarded with a complimentary photo, as well as a framed one that can be purchased for a price of 3000 KRW.</p>
+        <p>The tour itself costs roughly 65,000 KRW for adults and 44,000 KRW for children. Booking can be done with the official Seogwipo Submarine Website, any international travel platform or on-site at the ticket office.</p>
+        <p>As someone who has been here as well, I can guarantee you this experience will leave you breathless and feeling one with Jeju and the beauty of its culture.</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- ================= ABOUT ================= -->
+    <section class="about-section section-padding" id="about">
+
+      <img class="about-lily about-lily-left" src="assets/images/lily-about.png" alt="" aria-hidden="true">
+<img class="about-lily about-lily-right" src="assets/images/lily-about.png" alt="" aria-hidden="true">
+      <div class="container about-grid">
+
+        <div class="about-heading">
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2>One mind.<br> <span class="serif-italic">Many interests.</span></h2>
+
+          <div class="about-decoration" aria-hidden="true">
+            <span>DESIGN</span>
+            <span>+</span>
+            <span>TECH</span>
+            <span>+</span>
+            <span>WORDS</span>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <p class="about-lead">
+            I'm a Computer Science undergraduate with a creative
+            side and a curiosity about how people experience technology.
+          </p>
+
+          <p>
+            I'm especially interested in UI/UX design: understanding
+            a problem, thinking about the people behind it, and
+            shaping an idea into a thoughtful digital experience that is also soulful.
+          </p>
+
+          <p>
+            Outside of interfaces and code, I enjoy writing, reading and
+            exploring ideas through articles and research. This
+            portfolio brings those interests together in one place.
+          </p>
+
+          <p>
+            I designed this portfolio using the blueprint of me.
+            My name, Sayuri, connects two meanings that feel close to my identity: the ocean, which reflects my roots in Sri Lanka, and the little lily, inspired by its Japanese origins. The splashes of purple represent my birthstone, the amethyst and it also happens to be my favorite color.
+            Therefore, behind every color and illustration there is meaning. 
+            Together, they tell a story of who I am — academically, personally, and poetically.
+          </p>
+
+          <a class="text-link" href="#contact">
+            Get to know me <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+   <!-- ================= SKILLS ================= -->
+<section class="skills-section section-padding" id="skills">
+  <div class="container">
+
+    <p class="eyebrow">MY CREATIVE TOOLKIT</p>
+    <h2>Things I'm <span class="serif-italic">exploring.</span></h2>
+
+    <div class="skills-grid">
+
+      <div class="skill-group">
+        <span class="skill-number">01</span>
+        <h3>Design</h3>
+        <p>UI/UX · Wireframing · Prototyping · Design systems · Usability evaluation</p>
+      </div>
+
+      <div class="skill-group">
+        <span class="skill-number">02</span>
+        <h3>Technology</h3>
+        <p>HTML · CSS · JavaScript · C# · ASP.NET Core · SQL Server · Arduino / C++ · Git &amp; GitHub</p>
+      </div>
+
+      <div class="skill-group">
+        <span class="skill-number">03</span>
+        <h3>Data &amp; Testing</h3>
+        <p>Power BI · Power Query · Data cleaning · QA &amp; accessibility testing</p>
+      </div>
+
+      <div class="skill-group">
+        <span class="skill-number">04</span>
+        <h3>Creative &amp; Communication</h3>
+        <p>Figma · Canva · Affinity · Article writing · Research · Storytelling</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- ================= CONTACT ================= -->
+<section class="contact-section section-padding" id="contact">
+  <div class="container">
+
+    <p class="eyebrow">HAVE A PROJECT OR AN OPPORTUNITY?</p>
+
+    <h2>
+      Let's make<br>
+      <span class="serif-italic">something meaningful.</span>
+    </h2>
+
+    <p class="contact-description">
+      I'm interested in connecting with people who care about
+      design, technology, research, and creative ideas.
+    </p>
+
+    <div class="contact-links">
+      <a class="contact-button" href="mailto:sayu.methsanie@gmail.com">
+        Email me <span aria-hidden="true">↗</span>
+      </a>
+
+      <a class="text-link" href="https://www.linkedin.com/in/sayuri-edirisinghe-b181b6347" target="_blank" rel="noopener noreferrer">
+        LinkedIn <span aria-hidden="true">↗</span>
+      </a>
+
+      <a class="text-link" href="https://github.com/Sayuri-E" target="_blank" rel="noopener noreferrer">
+        GitHub <span aria-hidden="true">↗</span>
+      </a>
+
+      <!-- BEHANCE: when your profile is ready, paste this back in and add your URL.
+      <a class="text-link" href="YOUR-BEHANCE-URL" target="_blank" rel="noopener noreferrer">
+        Behance <span aria-hidden="true">↗</span>
+      </a>
+      -->
+    </div>
+    <p class="contact-note">Or write to me at sayu.methsanie@gmail.com</p>
+
+  </div>
+</section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+
+      <a class="logo footer-logo" href="#home">SAYURI<span> ED.</span></a>
+
+      <p>Designed with curiosity. Built with intention.</p>
+
+      <a href="#home" class="back-to-top">
+        Back to top ↑
+      </a>
+
+      <p class="copyright">
+        © <span id="current-year">2026</span> Sayuri Edirisinghe
+      </p>
+
+    </div>
+  </footer>
+
+</body>
+</html>
